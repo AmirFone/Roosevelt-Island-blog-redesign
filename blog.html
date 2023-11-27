@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Roosevelt Islander Online</title>
 <style>
-  /* Adjust the color scheme and fonts here to match your existing blog */
+  /* Adjusted Styles for Enhancements */
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
@@ -20,9 +20,10 @@
     overflow: hidden;
   }
   header {
-    background: #333; /* Dark header background */
+    background: #333;
     color: #fff;
     padding: 20px 0;
+    text-align: center;
   }
   header a {
     color: #fff;
@@ -32,32 +33,29 @@
   header ul {
     padding: 0;
     list-style: none;
-    text-align: center;
   }
   header li {
     display: inline;
     padding: 0 20px;
   }
   header #branding {
-    float: none;
     text-align: center;
   }
   header #branding h1 {
     margin: 0;
   }
   header nav {
-    float: none;
-    margin-top: 0;
+    margin-top: 10px;
   }
   header .highlight, header .current a {
-    color: #e8491d; /* Accent color for branding and current page */
+    color: #e8491d;
   }
   #main {
-    background-color: #f4f4f4; /* Light background for content */
+    background-color: #f4f4f4;
     padding: 20px 0;
   }
   #sidebar {
-    background-color: #e9e9e9; /* Sidebar background color */
+    background-color: #e9e9e9;
     padding: 20px;
     float: right;
     width: 30%;
@@ -77,6 +75,25 @@
     position: relative;
     bottom: 0;
     width: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and (max-width: 768px) {
+    header #branding, header nav, article, #sidebar {
+      float: none;
+      width: auto;
+    }
+    #sidebar {
+      width: 100%;
+    }
+    article {
+      width: 100%;
+    }
   }
 </style>
 </head>
